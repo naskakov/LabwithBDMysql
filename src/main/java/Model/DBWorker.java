@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 public class DBWorker {
     private static final String URL = "jdbc:mysql://localhost:3311/lb2";
     private static final String USERNAME = "root";
-    private static final String PASS = "Nastik0512";
+    private static final String PASS = "root";
 
     private static final String INSERT_PEOPLE = "INSERT INTO people VALUES(?,?,?,?,?,?,?,?,?);";
     private static final String UPDATE_PEOPLE = "UPDATE people SET " +
